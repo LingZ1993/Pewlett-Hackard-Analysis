@@ -7,3 +7,7 @@ The purpose of this analysis is to analyze large sets of data using postgresql, 
 1. In retirement_titles.csv files gives us all of the information and show us the list of employees are eligible to retire and their information, title, first and last name and also their hire date and end of hire date; 
 2. But since the csv file contains duplicate data showing that some employees have more than 1 title, so we want to limit the number of title to only one, so we create 'unique_titles.csv' file, we can see that each name only have one unique emp_no. 
 3. After we get unique titles for employees that are eligible to retire, we want to show people how many people for each title are eligible to retire, so that way it is easier to get an idea on how many people for each title, so in 'retiring_titles.csv' file we can see the numbers for each specific title. 
+4. From the table 'mentorship_eligibility' we can see that there are many employees that meets the requirement of being a mentor for new hired employees. 
+
+## Summary
+To summarize this analysis assignment, I've found out the importance of erasing duplicate data and what it can do to our data. 
