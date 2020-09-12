@@ -53,3 +53,10 @@ WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no; 
 
 SELECT * FROM mentorship_eligibility; 
+
+-- remove duplicate rows
+SELECT DISTINCT ON (emp_no) *
+INTO unique_mentorship_eligibility
+FROM mentorship_eligibility
+ORDER BY emp_no, to_date DESC; 
+SELECT * FROM unique_mentorship_eligibility;
